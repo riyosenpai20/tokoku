@@ -17,7 +17,7 @@ const Header = () => {
       })
     })
   return (
-    <header className={`${isActive ? 'bg-indigo-400':'bg-indigo-200'} flex justify-between items-center px-5 py-3 fixed w-full z-10 transition-all duration-500`}>
+    <header className={`${isActive ? 'bg-white/60 backdrop-blur-md shadow-md py-4 overflow-auto':'bg-none py-6'} flex justify-between items-center px-5 py-3 fixed w-full z-10 transition-all duration-500`}>
         <Link className='flex justify-between items-center' to={'/'}>
           <div className=''>
             <img className='w-[40px]' src={Logo} alt="" />
